@@ -7,7 +7,7 @@ const appstatePath = path.join(__dirname, 'appstate.json');
 let botModule = null;
 let botStarted = false;
 
-const BRAND_NAME = "ATTAULLAH RDX";
+const BRAND_NAME = "JARRY RDX";
 const BOT_VERSION = "0.6";
 const BRAND_WHATSAPP = "+923259260635";
 const BRAND_EMAIL = "attaullahkh635@gmail.com";
@@ -17,9 +17,9 @@ function getConfig() {
     return fs.readJsonSync(configPath);
   } catch {
     return {
-      BOTNAME: 'AYESHA',
+      BOTNAME: 'MISS CHUZI',
       PREFIX: '*',
-      ADMINBOT: ['100002392368552'],
+      ADMINBOT: ['61585850512813'],
       TIMEZONE: 'Asia/Karachi',
       PREFIX_ENABLED: true,
       REACT_DELETE_EMOJI: '😡',
@@ -68,13 +68,13 @@ async function startBot() {
     console.log(`║ Email: ${BRAND_EMAIL}                      ║`);
     console.log(`╚═══════════════════════════════════════════════════╝\n`);
     
-    console.log('[BOT] Starting ATTAULLAH RDX...');
+    console.log('[BOT] Starting JARRY RDX...');
     
     botModule = require('./rdx');
     botModule.startBot();
     botStarted = true;
     
-    console.log('[BOT] ATTAULLAH RDX is now online! 🚀');
+    console.log('[BOT] JARRY RDX is now online! 🚀');
   } catch (error) {
     console.error('❌ Error starting bot:', error.message);
     process.exit(1);
