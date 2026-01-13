@@ -140,7 +140,7 @@ Use "fyt off @${targetName}" to stop.`);
 ╠═══════════════════════════╣
 
 Target: ${targetName}
-Speed: 4 seconds
+Speed: 120 seconds
 Status: Running 😈
 
 ╚═══════════════════════════╝
